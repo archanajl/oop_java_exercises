@@ -16,4 +16,9 @@ package com.techreturners.cats;
          is_asleep = true;
      }
 
+     @Override
+     public void wakeUp() {
+         is_asleep = false;
+     }
+
  }

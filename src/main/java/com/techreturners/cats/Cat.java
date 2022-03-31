@@ -4,5 +4,5 @@ interface Cat {
 
     boolean isAsleep();
     void goToSleep();
-
+    void wakeUp();
 }
