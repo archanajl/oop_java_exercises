@@ -25,4 +25,9 @@ package com.techreturners.cats;
      public String getSetting() {
          return domestic_wild;
      }
+
+     @Override
+     public int getAverageHeight() {
+         return height;
+     }
  }
