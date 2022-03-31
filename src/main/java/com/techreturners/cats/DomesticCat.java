@@ -31,5 +31,9 @@ package com.techreturners.cats;
          return height;
      }
 
+     public String eat(){
+         return "Purrrrrrr";
+     }
+
 
  }
