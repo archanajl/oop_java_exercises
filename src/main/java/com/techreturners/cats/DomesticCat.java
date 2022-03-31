@@ -21,4 +21,8 @@ package com.techreturners.cats;
          is_asleep = false;
      }
 
+     @Override
+     public String getSetting() {
+         return domestic_wild;
+     }
  }
