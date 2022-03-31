@@ -11,4 +11,9 @@ package com.techreturners.cats;
          return is_asleep;
      }
 
+     @Override
+     public void goToSleep() {
+         is_asleep = true;
+     }
+
  }
