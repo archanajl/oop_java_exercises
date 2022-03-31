@@ -6,5 +6,9 @@ package com.techreturners.cats;
      int height = 23;
      String domestic_wild = "domestic";
 
+     @Override
+     public boolean isAsleep(){
+         return is_asleep;
+     }
 
  }
