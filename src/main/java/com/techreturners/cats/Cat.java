@@ -1,11 +1,12 @@
 package com.techreturners.cats;
 
-interface Cat {
+abstract class Cat {
 
-    boolean isAsleep();
-    void goToSleep();
-    void wakeUp();
-    String getSetting();
-    int getAverageHeight();
+    public abstract boolean isAsleep();
+    public abstract void goToSleep();
+    public abstract void wakeUp();
+    public abstract String getSetting();
+    public abstract int getAverageHeight();
+    //public abstract String eat();
 
 }
