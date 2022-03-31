@@ -1,9 +1,9 @@
 package com.techreturners.cats;
 
 public class CheetahCat extends Cat{
-    boolean is_asleep = false;
-    int height = 1100;
-    String domestic_wild = "wild";
+    private boolean is_asleep = false;
+    private final int height = 1100;
+    private final String domestic_wild = "wild";
 
 
     public boolean isAsleep(){

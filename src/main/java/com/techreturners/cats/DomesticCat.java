@@ -2,9 +2,9 @@ package com.techreturners.cats;
 
  public class DomesticCat extends Cat{
 
-     boolean is_asleep = false;
-     int height = 23;
-     String domestic_wild = "domestic";
+     private boolean is_asleep = false;
+     private final int height = 23;
+     private final String domestic_wild = "domestic";
 
 
      public boolean isAsleep(){
