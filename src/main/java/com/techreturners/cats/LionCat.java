@@ -1,31 +1,11 @@
 package com.techreturners.cats;
 
- class LionCat extends Cat{
+import java.util.Random;
 
-    private boolean is_asleep = false;
-    private final int height = 1100;
-    private final String domestic_wild = "wild";
+class LionCat  extends Animal {
 
-
-    public boolean isAsleep(){
-        return is_asleep;
-    }
-
-
-    public void goToSleep() {
-        is_asleep = true;
-    }
-
-    public void wakeUp() {
-        is_asleep = false;
-    }
-
-    public String getSetting() {
-        return domestic_wild;
-    }
-
-    public int getAverageHeight() {
-        return height;
+    public LionCat() {
+        super("wild",1100);
     }
 
      public String eat(){

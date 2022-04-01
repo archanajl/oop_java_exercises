@@ -1,33 +1,13 @@
 package com.techreturners.cats;
 
-public class CheetahCat extends Cat{
-    private boolean is_asleep = false;
-    private final int height = 1100;
-    private final String domestic_wild = "wild";
+public class CheetahCat extends Animal {
 
-
-    public boolean isAsleep(){
-        return is_asleep;
+    public CheetahCat() {
+        super("wild",1100);
     }
 
-
-    public void goToSleep() {
-        is_asleep = true;
-    }
-
-    public void wakeUp() {
-        is_asleep = false;
-    }
-
-    public String getSetting() {
-        return domestic_wild;
-    }
-
-    public int getAverageHeight() {
-        return height;
-    }
-
-    public String eat() {
+    public String eat(){
         return "Zzzzzzz";
     }
+
 }
