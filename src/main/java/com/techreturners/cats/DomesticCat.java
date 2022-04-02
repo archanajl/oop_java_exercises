@@ -9,10 +9,13 @@ import java.util.Random;
          super("domestic",23);
      }
 
-     public String eat(){
+     public int randomGenerator(){
          Random r=new Random();
-         int randomNum=r.nextInt(arrStringMessage.length);
-         return arrStringMessage[randomNum];
+         return r.nextInt(arrStringMessage.length);
+     }
+
+     public String eat(){
+         return arrStringMessage[randomGenerator()];
      }
 
 

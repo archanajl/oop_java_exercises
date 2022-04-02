@@ -61,6 +61,15 @@ public class CatTest {
     @Test
     public void feedTheCat() {
         Cat domesticCat = new DomesticCat();
-        assertEquals("Purrrrrrr", domesticCat.eat());
+        String expected = domesticCat.eat();
+        assertTrue(expected.equals("It will do I suppose") || expected.equals("Purrrrrrr"));
     }
+
+    @Test
+    public void checkRandomness() {
+        DomesticCat domesticCat = new DomesticCat();
+        int randomInt = domesticCat.randomGenerator();
+        assertTrue(randomInt == 0 || randomInt == 1);
+    }
+
 }
